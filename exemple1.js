@@ -68,3 +68,9 @@ const somar = (acumulado, atual) => acumulado+atual
 const somatorio = paresDobrado.reduce(somar)
 
 console.log('Somar com reduce', somatorio)
+
+const vetor1 = [10,20,30,40,50]
+
+const dobrarvetor = vetor1.reduce(somar)
+
+console.log('Dobrar vetor :',dobrarvetor)
